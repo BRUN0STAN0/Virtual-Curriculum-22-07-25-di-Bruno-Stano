@@ -1,0 +1,82 @@
+.titolo {
+    color:brown;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+  
+body {
+    background: url(https://wallpapercave.com/wp/T6yypye.jpg);
+    color: white;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.lettera {
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cropped {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 47%;
+  opacity: 100%;
+
+}
+
+.cropped img {
+  margin-top: -100px;
+  margin-bottom: -200px;
+  margin-left: -10px;
+  margin-right: 0px;
+  
+}
+
+.navbar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:0;
+    margin:0;
+    width: 400px;
+    overflow: hidden;
+    position: center;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: #333;
+  }
+
+
+  .navbar li {
+    float: left;
+
+  }
+  
+  .navbar li a {    
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+
+  .copyright {
+    font-family: monospace;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
